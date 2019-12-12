@@ -11,6 +11,17 @@ The input for this script is the output of paprica_v0.5.0 [filename.edge_data.cs
 Copy the script in paprica output folder and run as:
 python taxa_view.py
 
+#For taxa_view_v2.py
+
+@author: Avishek Dutta (avishekdutta14@gmail.com)
+@requires: python2 and Pandas
+
+This script helps to extract taxonomic hierarchy and also compares the abundance of invidual taxa among different samples.
+The input for this script is the output of combine_edge_results.py script [filename.edge_tally.csv and filename.taxon_map.csv]. It does not require all the edge data file as required earlier. Two files, edge_tally and taxon_map should be in the current folder where the script can be executed. This script also introduces taxon column in the taxonomic hierarchy
+
+Copy the script in paprica output folder and run as:
+python taxa_view_v2.py
+
 #For graph_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
