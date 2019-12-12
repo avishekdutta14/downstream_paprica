@@ -110,10 +110,8 @@ species.to_csv ('species.csv')
 #Deleting temporary files
 
 os.remove ('transpose_file.csv')
-#os.remove ('merged_edge_data.csv')
 os.remove ('taxonomy.csv')
 os.remove ('transpose_file_int.csv')
-#os.remove ('taxonomy_int.csv')
 os.remove ('taxa_abundance1.csv')
 os.remove ('Unassigned.csv')
 print ('The output of the file is present in taxa_abundance.csv')
