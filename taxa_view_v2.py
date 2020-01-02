@@ -72,17 +72,15 @@ group['species'].fillna('Unassigned', inplace=True)
 group.to_csv ('Unassigned.csv', index=False)
 
 #Grouping phylum
-phylum = pd.read_csv('Unassigned.csv')
 phylum = group.groupby('phylum').sum()
 phylum = phylum.drop('OTU', 1)
 phylum.to_csv ('phylum.csv')
 
 
 #Grouping class
-class = pd.read_csv('Unassigned.csv')
-class = df.groupby('class').sum()
-class = df.drop('OTU', 1)
-class.to_csv ('class.csv')
+class1 = group.groupby('class').sum()
+class1 = class1.drop('OTU', 1)
+class1.to_csv ('class.csv')
 
 
 #Grouping order
