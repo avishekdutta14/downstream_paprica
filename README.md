@@ -22,6 +22,16 @@ The input for this script is the output of combine_edge_results.py script [filen
 Copy the script in paprica output folder and run as:
 python taxa_view_v2.py
 
+#For taxa_percentage.py
+
+@author: Avishek Dutta (avishekdutta14@gmail.com)
+@requires: python2 and Pandas
+
+This script helps to caluclate percentage abundance of different taxa from taxa_abundance.csv file (output of taxa_view_v2.py or taxa_view.py)
+
+Copy the script in paprica output folder and run as:
+python taxa_percentage.py
+
 #For graph_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
