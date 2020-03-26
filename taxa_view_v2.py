@@ -58,9 +58,6 @@ unique= pd.read_csv('taxa_abundance1.csv')
 unique.drop_duplicates(subset=None, inplace=True)
 unique.to_csv('taxa_abundance.csv', index=False)
 
-import pandas as pd
-
-
 
 group = pd.read_csv('taxa_abundance.csv')
 group['phylum'].fillna('Unassigned', inplace=True)
