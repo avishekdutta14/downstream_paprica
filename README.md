@@ -4,7 +4,7 @@ for downstream analysis of paprica data
 #For taxa_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
-@requires: python2 and Pandas
+@requires: python3 and Pandas
 
 This script helps to extract taxonomic hierarchy and also compares the abundance of invidual taxa among different samples.
 The input for this script is the output of paprica_v0.5.0 [filename.edge_data.csv (different for multiple samples)] and combine_edge_results.py script [filename.edge_tally.csv].  
@@ -25,7 +25,7 @@ python taxa_view_v2.py
 #For taxa_percentage.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
-@requires: python2 and Pandas
+@requires: python3 and Pandas
 
 This script helps to caluclate percentage abundance of different taxa from taxa_abundance.csv file (output of taxa_view_v2.py or taxa_view.py)
 
@@ -45,7 +45,7 @@ python3 graph_view.py
 #For enzyme_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
-@requires: python2 and Pandas
+@requires: python3 and Pandas
 
 This script helps to name the EC numbers and also extracts the genes related sulfur and nitrogen cycle
 The input for this script is the combine_edge_results.py script (filename.ec_tally.csv) and enzyme_final.csv (present in the repository).  
@@ -62,6 +62,6 @@ Input files- i)  .unique_tally.csv and ii) .taxon_map.csv
 
 #For taxa_percentage_for_normalized_edge.py
 
-@author: Avishek Dutta (avishekdutta14@gmail.com) @requires: python2 and Pandas
+@author: Avishek Dutta (avishekdutta14@gmail.com) @requires: python3 and Pandas
 
 This script helps to calculate percentage abundance of different taxa from normalized_edge.csv file (output of edge_norm_16S.py).
