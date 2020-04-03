@@ -60,3 +60,8 @@ python enzyme_view.py
 This script generates two files, i) sequence.csv - file which contains assigned ASVs/DNA sequences to each edges and ii) normalized_edge.csv - normalized edge abundance based on 16S copy number
 Input files- i)  .unique_tally.csv and ii) .taxon_map.csv
 
+#For taxa_percentage_for_normalized_edge.py
+
+@author: Avishek Dutta (avishekdutta14@gmail.com) @requires: python2 and Pandas
+
+This script helps to calculate percentage abundance of different taxa from normalized_edge.csv file (output of edge_norm_16S.py).
