@@ -51,3 +51,12 @@ This script helps to name the EC numbers and also extracts the genes related sul
 The input for this script is the combine_edge_results.py script (filename.ec_tally.csv) and enzyme_final.csv (present in the repository).  
 Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.csv in paprica output folder and run as:
 python enzyme_view.py
+
+#For edge_norm_16S.py (needs some further validation)
+
+@author: Avishek Dutta (avishekdutta14@gmail.com)
+@requires: python3 and Pandas
+
+This script generates two files, i) sequence.csv - file which contains assigned ASVs/DNA sequences to each edges and ii) normalized_edge.csv - normalized edge abundance based on 16S copy number
+Input files- i)  .unique_tally.csv and ii) .taxon_map.csv
+
