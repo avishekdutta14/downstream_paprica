@@ -25,7 +25,7 @@ unique_t.rename(columns={'Unnamed: 0': 'mixed'}, inplace=True)
 
 
 
-#separating the mixed column on the basis of underscore _ a delimitor
+#separating the mixed column on the basis of underscore _ as delimitor
 
 unique_t[['Sequence','OTU']] = unique_t.mixed.str.split("_",expand=True)
 
