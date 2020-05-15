@@ -62,6 +62,15 @@ Input files- i)  .unique_tally.csv and ii) .taxon_map.csv
 
 #For taxa_percentage_for_normalized_edge.py
 
-@author: Avishek Dutta (avishekdutta14@gmail.com) @requires: python3 and Pandas
+@author: Avishek Dutta (avishekdutta14@gmail.com) 
+@requires: python3 and Pandas
 
 This script helps to calculate percentage abundance of different taxa from normalized_edge.csv file (output of edge_norm_16S.py).
+
+#For taxzyme.py
+@author: Avishek Dutta (avishekdutta14@gmail.com) 
+@requires: python3 and Pandas
+
+Requires all the .ec files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py)
+
+
