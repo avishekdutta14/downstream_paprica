@@ -52,7 +52,7 @@ The input for this script is the combine_edge_results.py script (filename.ec_tal
 Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.csv in paprica output folder and run as:
 python enzyme_view.py
 
-#For edge_norm_16S.py (needs some further validation)
+#For edge_norm_16S.py 
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python3 and Pandas
@@ -67,7 +67,7 @@ Input files- i)  .unique_tally.csv and ii) .taxon_map.csv
 
 This script helps to calculate percentage abundance of different taxa from normalized_edge.csv file (output of edge_norm_16S.py).
 
-#For taxzyme.py
+#For taxzyme.py (needs further verification)
 @author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
 
