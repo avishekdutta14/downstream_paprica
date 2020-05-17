@@ -71,6 +71,6 @@ This script helps to calculate percentage abundance of different taxa from norma
 @author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
 
-Requires all the .ec files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py). The 
+Requires all the .ec files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py). Please note that the enzyme abundance for a particular taxa is the cumulative value of the enzmye present across all the samples used for the analysis. 
 
 
