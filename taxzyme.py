@@ -49,12 +49,7 @@ df1.rename(columns={'Unnamed: 0.1': 'OTU'}, inplace=True)
 
 df2 = df1[df1.OTU != 'Unnamed: 0']
 
-
-#df2['OTU'] = df2['OTU'].astype(float)
-
 df3 = df2.astype(float)
-
-#print(df3)
 
 df4= df3.groupby(['OTU']).sum()
 
