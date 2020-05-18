@@ -4,9 +4,6 @@ import os
 path = '.'
 files_in_dir = [f for f in os.listdir(path) if f.endswith('.ec.csv')]
 for filename in files_in_dir:
-    # We save an augmented filename later, 
-    # so using splitext is useful for more
-    # than just checking the extension.
     prefix, ext = os.path.splitext(filename)
     if ext.lower() != '.csv':
         continue
@@ -15,8 +12,7 @@ for filename in files_in_dir:
                                header=None, 
                                index_col=None, 
                                parse_dates=False)
-    # Transpose is easy, but you could do TONS
-    # of data processing here. pandas is awesome.
+    # Transposing the file
     df_transposed = df.T
     # Save to a new file with an augmented name 
     df_transposed.to_csv(prefix+'_T'+ext, header=False, index=False)
@@ -49,7 +45,7 @@ df1.rename(columns={'Unnamed: 0.1': 'OTU'}, inplace=True)
 
 df2 = df1[df1.OTU != 'Unnamed: 0']
 
-df3 = df2.astype(float)
+df3 = df2.astype(float) #changing the dataframe to float to make .groupby function work
 
 df4= df3.groupby(['OTU']).sum()
 
