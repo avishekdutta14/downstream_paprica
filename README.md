@@ -72,5 +72,17 @@ This script helps to calculate percentage abundance of different taxa from norma
 @author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
 
-Requires all the .ec files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py). Copy all the .ec file to a new folder in which only the ec files and taxa_abundance.csv is present and run the script "python taxzyme.py".
-N.B.: Please note that the enzyme abundance for a particular taxa reported in the output is the cumulative value of the enzmye present across all the samples used for the analysis. 
+Requires all the .ec.csv files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py). Copy all the .ec.csv file to a new folder in which only the ec files and taxa_abundance.csv is present and run the script "python taxzyme.py".
+
+N.B.: Please note that the enzyme abundance for a particular taxa reported in the output is the cumulative abundance of the enzmye present across all the samples used for the analysis. 
+
+
+#For taxpath.py (needs further verification)
+
+@author: Avishek Dutta (avishekdutta14@gmail.com) 
+@requires: python3 and Pandas
+
+Requires all the .pathways.csv files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py). Copy all the .pathways.csv file to a new folder in which only the pathways.csv files and taxa_abundance.csv is present and run the script "python taxpath.py".
+
+N.B.: Please note that the pathway abundance for a particular taxa reported in the output is the cumulative abudnace of the pathways present across all the samples used for the analysis. 
+
