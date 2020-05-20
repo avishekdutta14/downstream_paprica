@@ -84,5 +84,5 @@ N.B.: Please note that the enzyme abundance for a particular taxon reported in t
 
 Requires all the .pathways.csv files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py). Copy all the .pathways.csv (output of paprica) file to a new folder in which only the pathways.csv files and taxa_abundance.csv is present and run the script "python taxpath.py".
 
-N.B.: Please note that the pathway abundance for a particular taxon reported in the output is the cumulative abudnace of the pathways present across all the samples used for the analysis. 
+N.B.: Please note that the pathway abundance for a particular taxon reported in the output is the cumulative abundance of the pathways present across all the samples used for the analysis. 
 
