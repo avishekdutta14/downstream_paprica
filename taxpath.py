@@ -1,5 +1,6 @@
 """
-@author: Avishek Dutta (avishekdutta14@gmail.com) @requires: python3 and Pandas
+@author: Avishek Dutta (avishekdutta14@gmail.com) 
+@requires: python3 and Pandas
 
 Requires all the .pathways.csv files from each samples and also require the
 taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py).Copy all the .pathways.csv (output of paprica) file 
