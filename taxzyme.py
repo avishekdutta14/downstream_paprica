@@ -1,3 +1,15 @@
+"""
+@author: Avishek Dutta 
+@requires: python3 and Pandas
+
+Requires all the .ec.csv files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py).
+Copy all the .ec.csv (output of paprica) file to a new folder in which only the ec files and taxa_abundance.csv 
+is present and run the script "python taxzyme.py".
+
+N.B.: Please note that the enzyme abundance for a particular taxon reported 
+in the output is the cumulative abundance of the enzmye present across all the samples used for the analysis.
+"""
+
 import pandas as pd
 import os
 
