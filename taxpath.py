@@ -1,8 +1,9 @@
 """
 @author: Avishek Dutta (avishekdutta14@gmail.com) @requires: python3 and Pandas
 
-Requires all the .pathways.csv files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py).
-Copy all the .pathways.csv (output of paprica) file to a new folder in which only the pathways.csv files and taxa_abundance.csv 
+Requires all the .pathways.csv files from each samples and also require the
+taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py).Copy all the .pathways.csv (output of paprica) file 
+to a new folder in which only the pathways.csv files and taxa_abundance.csv 
 is present and run the script "python taxpath.py".
 
 N.B.: Please note that the pathway abundance for a particular taxon reported in the output is 
