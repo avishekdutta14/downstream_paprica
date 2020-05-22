@@ -1,5 +1,5 @@
 """
-@author: Avishek Dutta 
+@author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
 
 Requires all the .ec.csv files from each samples and also require the taxa_abundance.csv (output from taxa_view.py or taxa_view_v2.py).
