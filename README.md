@@ -1,7 +1,7 @@
 # downstream_paprica
 for downstream analysis of paprica data
 
-#For taxa_view.py
+## For taxa_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python3 and Pandas
@@ -11,7 +11,7 @@ The input for this script is the output of paprica_v0.5.0 [filename.edge_data.cs
 Copy the script in paprica output folder and run as:
 python taxa_view.py
 
-#For taxa_view_v2.py
+## For taxa_view_v2.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python2 and Pandas
@@ -22,7 +22,7 @@ The input for this script is the output of combine_edge_results.py script [filen
 Copy the script in paprica output folder and run as:
 python taxa_view_v2.py
 
-#For taxa_percentage.py
+## For taxa_percentage.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python3 and Pandas
@@ -32,7 +32,7 @@ This script helps to caluclate percentage abundance of different taxa from taxa_
 Copy the script in paprica output folder and run as:
 python taxa_percentage.py
 
-#For graph_view.py
+## For graph_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires:Python3, Pandas and matplotlib
@@ -42,7 +42,7 @@ This script is based on the outputs from taxa_view.py
 Copy the script in the output folder of taxa_view.py
 python3 graph_view.py
 
-#For enzyme_view.py
+## For enzyme_view.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python3 and Pandas
@@ -52,7 +52,7 @@ The input for this script is the combine_edge_results.py script (filename.ec_tal
 Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.csv in paprica output folder and run as:
 python enzyme_view.py
 
-#For enzyme_view_v2.py (needs further verification)
+## For enzyme_view_v2.py (needs further verification)
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python3 and Pandas
@@ -64,7 +64,7 @@ Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.
 python enzyme_view_v2.py
 
 
-#For edge_norm_16S.py 
+## For edge_norm_16S.py 
 
 @author: Avishek Dutta (avishekdutta14@gmail.com)
 @requires: python3 and Pandas
@@ -72,14 +72,14 @@ python enzyme_view_v2.py
 This script generates two files, i) sequence.csv - file which contains assigned ASVs/DNA sequences to each edges and ii) normalized_edge.csv - normalized edge abundance based on 16S copy number
 Input files- i)  .unique_tally.csv and ii) .taxon_map.csv
 
-#For taxa_percentage_for_normalized_edge.py
+## For taxa_percentage_for_normalized_edge.py
 
 @author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
 
 This script helps to calculate percentage abundance of different taxa from normalized_edge.csv file (output of edge_norm_16S.py).
 
-#For taxzyme.py (needs further verification)
+## For taxzyme.py (needs further verification)
 
 @author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
@@ -89,7 +89,7 @@ Requires all the .ec.csv files from each samples and also require the taxa_abund
 N.B.: Please note that the enzyme abundance for a particular taxon reported in the output is the cumulative abundance of the enzmye present across all the samples used for the analysis. 
 
 
-#For taxpath.py (needs further verification)
+## For taxpath.py (needs further verification)
 
 @author: Avishek Dutta (avishekdutta14@gmail.com) 
 @requires: python3 and Pandas
