@@ -48,7 +48,7 @@ python3 graph_view.py
 @requires: python3 and Pandas
 
 This script helps to name the EC numbers and also extracts the genes related sulfur and nitrogen cycle
-The input for this script is the combine_edge_results.py script (filename.ec_tally.csv) and enzyme_final.csv (present in the repository).  
+The input for this script is the combine_edge_results.py script (filename.ec_tally.csv) and enzyme_final.csv (present in the repository).  This version is deprecated please use enzyme_view_v2.py.
 Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.csv in paprica output folder and run as:
 python enzyme_view.py
 
@@ -58,7 +58,7 @@ python enzyme_view.py
 @requires: python3 and Pandas
 
 Certain modifications are done to enzyme_view.py to adapt with latest version of pandas.
-This script helps to name the EC numbers and also extracts the genes related sulfur and nitrogen cycle
+This script helps to name the EC numbers and also extracts the genes related sulfur and nitrogen cycle. There might be other enzymes related to sulfur and nitrogen cycle. You can also modify the script accordingly to include these enzymes.
 The input for this script is the combine_edge_results.py script (filename.ec_tally.csv) and enzyme_final.csv (present in the repository).  
 Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.csv in paprica output folder and run as:
 python enzyme_view_v2.py
