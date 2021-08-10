@@ -1,6 +1,6 @@
 """
 @author: Avishek Dutta (avishekdutta14@gmail.com)
-@requires: python2 and Pandas
+@requires: python3 and Pandas
 This script helps to name the EC numbers and also extracts the genes related sulfur and nitrogen cycle
 The input for this script is the combine_edge_results.py script (filename.ec_tally.csv) and enzyme_final.csv (present in the repository).  
 Copy the script in the folder containing filename.ec_tally.csv and enzyme_final.csv in paprica output folder and run as:
