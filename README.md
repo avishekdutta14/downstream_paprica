@@ -99,3 +99,10 @@ Requires all the .pathways.csv files from each samples and also require the taxa
 
 N.B.: Please note that the pathway abundance for a particular taxon reported in the output is the cumulative abundance of the pathways present across all the samples used for the analysis. 
 
+## For pakr.py
+
+@author: Avishek Dutta (avishekdutta14@gmail.com) 
+@requires: python3, Pandas, and [Krona chart](https://github.com/marbl/Krona)
+
+Requires unique_tally.csv, seq_edge_map.csv, and taxon_map.csv from paprica output. Install [Krona chart](https://github.com/marbl/Krona) and declare it to the PATH. Make a folder and copy unique_tally.csv, seq_edge_map.csv, and taxon_map.csv (output of paprica) and run "python pakr.py". You can also do "chmod a+x pakr.py" and "./pakr.py". Either the pakr.py should be present in the new folder containing all the three outputs of paprica, or it can also be declared in the PATH. The results will be in Krona_paprica.html
+
